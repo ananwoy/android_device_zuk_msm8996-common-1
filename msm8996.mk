@@ -208,6 +208,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # OMX
 PRODUCT_PACKAGES += \
     libc2dcolorconvert \
+    libhypv_intercept \
     libextmedia_jni \
     libOmxAacEnc \
     libOmxAmrEnc \
