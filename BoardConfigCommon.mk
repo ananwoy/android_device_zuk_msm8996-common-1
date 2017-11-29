@@ -21,6 +21,9 @@
 # definition file).
 #
 
+# Temp fix
+ALLOW_MISSING_DEPENDENCIES=true
+
 VENDOR_PATH := device/zuk/msm8996-common
 
 TARGET_SPECIFIC_HEADER_PATH := $(VENDOR_PATH)/include
