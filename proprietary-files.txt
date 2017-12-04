@@ -660,7 +660,6 @@ bin/irsc_util
 bin/ssr_setup
 bin/tftp_server
 bin/sensors.qcom
-bin/iop
 bin/pm-proxy
 framework/com.qti.location.sdk.jar
 framework/ConnectivityExt.jar
