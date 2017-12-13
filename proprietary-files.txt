@@ -650,6 +650,7 @@ bin/sensors.qcom
 bin/iop
 bin/pm-proxy
 framework/com.qti.snapdragon.sdk.display.jar
+framework/com.quicinc.cne.api-V1.0-java.jar
 framework/qti-telephony-common.jar
 framework/qcrilhook.jar
 framework/QtiTelephonyServicelibrary.jar
