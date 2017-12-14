@@ -76,6 +76,7 @@ vendor/lib/libthermalclient.so
 vendor/lib/libmmcamera_isp_sub_module.so
 vendor/lib/libidl.so
 vendor/lib/libsmwrapper.so
+vendor/lib/libOmxAmrDec.so
 vendor/lib/libsdm-diag.so
 vendor/lib/libgsl.so
 vendor/lib/libwvdrm_L3.so
@@ -259,6 +260,7 @@ vendor/lib/libjpegehw.so
 vendor/lib/libmmcamera_eeprom_util.so
 vendor/lib/lib-rtpcore.so
 vendor/lib/libqmi_csi.so
+vendor/lib/libvpplibrary.so
 vendor/lib/mediadrm/libwvdrmengine.so
 vendor/lib/libmmcamera_isp_clamp_video40.so
 vendor/lib/libqvop-service.so
@@ -301,6 +303,7 @@ vendor/lib/libmmcamera_isp_gtm46.so
 vendor/lib/libOmxQcelp13Dec.so
 vendor/lib/libmmcamera2_stats_modules.so
 vendor/lib/libllvm-qcom.so
+vendor/lib/libOmxVpp.so
 vendor/lib/libsensor1.so
 vendor/lib/libqomx_jpegdec.so
 vendor/lib/libOmxEvrcDec.so
@@ -390,6 +393,7 @@ vendor/lib64/libhdr_tm.so
 vendor/lib64/libgeofence.so
 vendor/lib64/libthermalclient.so
 vendor/lib64/libidl.so
+vendor/lib64/libOmxAmrDec.so
 vendor/lib64/libsdm-diag.so
 vendor/lib64/libgsl.so
 vendor/lib64/lib_drplugin_server.so
@@ -511,6 +515,7 @@ vendor/lib64/libdrmfs.so
 vendor/lib64/lib-rtpcore.so
 vendor/lib64/libqmi_csi.so
 vendor/lib64/libdrplugin_client.so
+vendor/lib64/libvpplibrary.so
 vendor/lib64/libqvop-service.so
 vendor/lib64/libmmcamera_dbg.so
 vendor/lib64/libril-qcril-hook-oem.so
@@ -548,6 +553,7 @@ vendor/lib64/libqti_performance.so
 vendor/lib64/libqmi_client_helper.so
 vendor/lib64/libOmxQcelp13Dec.so
 vendor/lib64/libllvm-qcom.so
+vendor/lib64/libOmxVpp.so
 vendor/lib64/libsensor1.so
 vendor/lib64/libOmxEvrcDec.so
 vendor/lib64/libsystem_health_mon.so
