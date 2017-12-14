@@ -198,6 +198,7 @@ vendor/lib/libqcci_legacy.so
 vendor/lib/com.quicinc.cne.constants@2.0.so
 vendor/lib/libfastcvopt.so
 vendor/lib/libmmcamera_isp_bg_stats46.so
+vendor/lib/vendor.display.postproc@1.0.so
 vendor/lib/libmorpho_image_stab4.so
 vendor/lib/libmmcamera_eebinparse.so
 vendor/lib/libqti-perfd-client.so
@@ -287,6 +288,7 @@ vendor/lib/libmmjpeg.so
 vendor/lib/libOmxWmaDec.so
 vendor/lib/libmmcamera_isp_fovcrop_encoder46.so
 vendor/lib/libgpustats.so
+vendor/lib/vendor.display.color@1.0.so
 vendor/lib/libmmcamera2_cpp_module.so
 vendor/lib/libcneapiclient.so
 vendor/lib/libmmcamera_isp_linearization40.so
@@ -362,6 +364,7 @@ vendor/etc/perf-profile1.conf
 vendor/etc/perf-profile0.conf
 vendor/etc/perf-profile3.conf
 vendor/etc/perf-profile2.conf
+vendor/etc/init/vendor.display.color@1.0-service.rc
 vendor/etc/qcril_fancy.db
 vendor/etc/RIDL/qdss.cfg
 vendor/lib64/libalarmservice_jni.so
@@ -477,6 +480,7 @@ vendor/lib64/libqcci_legacy.so
 vendor/lib64/com.quicinc.cne.constants@2.0.so
 vendor/lib64/libfastcvopt.so
 vendor/lib64/libasn1crtx.so
+vendor/lib64/vendor.display.postproc@1.0.so
 vendor/lib64/libqti-perfd-client.so
 vendor/lib64/libwms.so
 vendor/lib64/libqti-iop.so
@@ -532,6 +536,7 @@ vendor/lib64/libdataitems.so
 vendor/lib64/librcc.so
 vendor/lib64/libOmxWmaDec.so
 vendor/lib64/libgpustats.so
+vendor/lib64/vendor.display.color@1.0.so
 vendor/lib64/libcneapiclient.so
 vendor/lib64/liblbs_core.so
 vendor/lib64/libevent_observer.so
@@ -576,6 +581,7 @@ vendor/lib64/libCB.so
 vendor/lib64/libqmi.so
 vendor/lib64/libqdi.so
 vendor/bin/perfd
+vendor/bin/hw/vendor.display.color@1.0-service
 vendor/bin/qti
 vendor/bin/qseeproxydaemon
 vendor/bin/cnd
