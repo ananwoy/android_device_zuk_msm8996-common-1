@@ -82,6 +82,7 @@ vendor/lib/libwvdrm_L3.so
 vendor/lib/lib_drplugin_server.so
 vendor/lib/libqseed3.so
 vendor/lib/libmmcamera_isp_clamp_encoder40.so
+vendor/lib/vendor.display.color@1.0_vendor.so
 vendor/lib/libmmcamera_tintless_bg_pca_algo.so
 vendor/lib/lib-rtpcommon.so
 vendor/lib/libc2d30_bltlib.so
@@ -198,7 +199,6 @@ vendor/lib/libqcci_legacy.so
 vendor/lib/com.quicinc.cne.constants@2.0.so
 vendor/lib/libfastcvopt.so
 vendor/lib/libmmcamera_isp_bg_stats46.so
-vendor/lib/vendor.display.postproc@1.0.so
 vendor/lib/libmorpho_image_stab4.so
 vendor/lib/libmmcamera_eebinparse.so
 vendor/lib/libqti-perfd-client.so
@@ -288,7 +288,6 @@ vendor/lib/libmmjpeg.so
 vendor/lib/libOmxWmaDec.so
 vendor/lib/libmmcamera_isp_fovcrop_encoder46.so
 vendor/lib/libgpustats.so
-vendor/lib/vendor.display.color@1.0.so
 vendor/lib/libmmcamera2_cpp_module.so
 vendor/lib/libcneapiclient.so
 vendor/lib/libmmcamera_isp_linearization40.so
@@ -394,6 +393,7 @@ vendor/lib64/libsdm-diag.so
 vendor/lib64/libgsl.so
 vendor/lib64/lib_drplugin_server.so
 vendor/lib64/libqseed3.so
+vendor/lib64/vendor.display.color@1.0_vendor.so
 vendor/lib64/libimsmedia_jni.so
 vendor/lib64/libmmcamera_tintless_bg_pca_algo.so
 vendor/lib64/lib-rtpcommon.so
@@ -480,7 +480,6 @@ vendor/lib64/libqcci_legacy.so
 vendor/lib64/com.quicinc.cne.constants@2.0.so
 vendor/lib64/libfastcvopt.so
 vendor/lib64/libasn1crtx.so
-vendor/lib64/vendor.display.postproc@1.0.so
 vendor/lib64/libqti-perfd-client.so
 vendor/lib64/libwms.so
 vendor/lib64/libqti-iop.so
@@ -536,7 +535,6 @@ vendor/lib64/libdataitems.so
 vendor/lib64/librcc.so
 vendor/lib64/libOmxWmaDec.so
 vendor/lib64/libgpustats.so
-vendor/lib64/vendor.display.color@1.0.so
 vendor/lib64/libcneapiclient.so
 vendor/lib64/liblbs_core.so
 vendor/lib64/libevent_observer.so
@@ -591,6 +589,7 @@ lib/libmmjpeg_interface.so
 lib/vendor.display.postproc@1.0.so
 lib/libmmcamera_interface.so
 lib/libvpplibrary.so
+lib/vendor.display.color@1.0.so
 lib/libOmxVpp.so
 lib/libtfa98xx.so
 lib/libmm-qcamera.so
@@ -619,6 +618,7 @@ lib64/libloc_ds_api.so
 lib64/libloc_api_v02.so
 lib64/vendor.display.postproc@1.0.so
 lib64/libextmedia_jni.so
+lib64/vendor.display.color@1.0.so
 lib64/libtfa98xx.so
 bin/rmt_storage
 bin/imsdatadaemon
