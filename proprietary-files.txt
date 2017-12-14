@@ -585,6 +585,7 @@ vendor/bin/qti
 vendor/bin/qseeproxydaemon
 vendor/bin/cnd
 vendor/bin/thermal-engine
+vendor/bin/adsprpcd
 vendor/bin/pd-mapper
 lib/libmmjpeg_interface.so
 lib/vendor.display.postproc@1.0.so
@@ -643,7 +644,6 @@ bin/hci_qcomm_init
 bin/netmgrd
 bin/xtwifi-inet-agent
 bin/port-bridge
-bin/adsprpcd
 bin/irsc_util
 bin/ssr_setup
 bin/tftp_server
