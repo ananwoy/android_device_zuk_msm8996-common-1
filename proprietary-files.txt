@@ -243,6 +243,7 @@ vendor/lib/libmmcamera_isp_black_level47.so
 vendor/lib/libxml.so
 vendor/lib/libdpmtcm.so
 vendor/lib/libmmcamera_isp_pedestal_correct46.so
+vendor/lib/libaudio_log_utils.so
 vendor/lib/lib-imss.so
 vendor/lib/libdsi_netctrl.so
 vendor/lib/libmmcamera_isp_fovcrop_viewfinder46.so
@@ -318,6 +319,7 @@ vendor/lib/lib-rcsimssjni.so
 vendor/lib/libtzdrmgenprov.so
 vendor/lib/libFidoCrypto.so
 vendor/lib/libbtnv.so
+vendor/lib/libqtigef.so
 vendor/lib/libaudiodevarb.so
 vendor/lib/libFidoSuiJNI.so
 vendor/lib/libadsp_hvx_stub.so
@@ -514,6 +516,7 @@ vendor/lib64/libtime_genoff.so
 vendor/lib64/libmmcamera2_q3a_core.so
 vendor/lib64/libxml.so
 vendor/lib64/libdpmtcm.so
+vendor/lib64/libaudio_log_utils.so
 vendor/lib64/lib-imss.so
 vendor/lib64/libdsi_netctrl.so
 vendor/lib64/libOmxApeDecSw.so
@@ -571,6 +574,7 @@ vendor/lib64/lib-rcsimssjni.so
 vendor/lib64/libtzdrmgenprov.so
 vendor/lib64/libFidoCrypto.so
 vendor/lib64/libbtnv.so
+vendor/lib64/libqtigef.so
 vendor/lib64/liblowi_wifihal_nl.so
 vendor/lib64/libaudiodevarb.so
 vendor/lib64/liblowi_client.so
