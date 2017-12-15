@@ -648,6 +648,7 @@ vendor/bin/mm-qcamera-daemon
 vendor/bin/loc_launcher
 vendor/bin/cnd
 vendor/bin/ims_rtp_daemon
+vendor/bin/xtra-daemon
 vendor/bin/thermal-engine
 vendor/bin/netmgrd
 vendor/bin/adsprpcd
