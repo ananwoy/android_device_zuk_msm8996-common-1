@@ -1,7 +1,7 @@
 usr/idc/usf_tsc_ext.idc
 usr/idc/usf_tsc.idc
 usr/idc/usf_tsc_ptr.idc
-vendor/qcril.db
+vendor/radio/qcril_database/qcril.db
 vendor/firmware/cpp_firmware_v1_8_0.fw
 vendor/firmware/cpp_firmware_v1_5_2.fw
 vendor/firmware/nvm_tlv_1.3.bin
@@ -83,7 +83,9 @@ vendor/lib/libwvdrm_L3.so
 vendor/lib/lib_drplugin_server.so
 vendor/lib/libqseed3.so
 vendor/lib/libmmcamera_isp_clamp_encoder40.so
+vendor/lib/vendor.qti.hardware.radio.am@1.0_vendor.so
 vendor/lib/vendor.display.color@1.0_vendor.so
+vendor/lib/com.qualcomm.qti.imscmservice@1.0_vendor.so
 vendor/lib/libmmcamera_tintless_bg_pca_algo.so
 vendor/lib/lib-rtpcommon.so
 vendor/lib/libc2d30_bltlib.so
@@ -104,6 +106,7 @@ vendor/lib/lib-rtpsl.so
 vendor/lib/libvqzip.so
 vendor/lib/libmmcamera2_stats_algorithm.so
 vendor/lib/libI420colorconvert.so
+vendor/lib/vendor.qti.hardware.radio.lpa@1.0_vendor.so
 vendor/lib/libmmcamera_isp_hdr_be_stats46.so
 vendor/lib/libmmcamera_isp_ltm47.so
 vendor/lib/com.quicinc.cne.server@1.0.so
@@ -124,6 +127,7 @@ vendor/lib/egl/libGLESv2_adreno.so
 vendor/lib/libdiag.so
 vendor/lib/libOmxVideoDSMode.so
 vendor/lib/lib-imsSDP.so
+vendor/lib/vendor.qti.hardware.radio.qtiradio@1.0_vendor.so
 vendor/lib/libmmcamera2_isp_modules.so
 vendor/lib/libsd_sdk_display.so
 vendor/lib/libqdp.so
@@ -135,6 +139,7 @@ vendor/lib/libmmqjpegdma.so
 vendor/lib/libmmqjpeg_codec.so
 vendor/lib/libmmcamera_gt24c08h_eeprom.so
 vendor/lib/libadm.so
+vendor/lib/vendor.qti.hardware.radio.ims@1.0_vendor.so
 vendor/lib/libsdm-disp-vndapis.so
 vendor/lib/libmmcamera_isp_scaler_encoder46.so
 vendor/lib/libqmi_client_qmux.so
@@ -174,6 +179,7 @@ vendor/lib/libnetmgr.so
 vendor/lib/libadreno_utils.so
 vendor/lib/libmmcamera_isp_aec_bg_stats47.so
 vendor/lib/libc2d30-a5xx.so
+vendor/lib/vendor.qti.hardware.radio.uim_remote_client@1.0_vendor.so
 vendor/lib/libOmxAacDec.so
 vendor/lib/libmdmdetect.so
 vendor/lib/libmmcamera2_is.so
@@ -186,6 +192,7 @@ vendor/lib/sensors.oem.so
 vendor/lib/libmm-color-convertor.so
 vendor/lib/libperipheral_client.so
 vendor/lib/libacdbrtac.so
+vendor/lib/vendor.qti.imsrtpservice@1.0-service-Impl.so
 vendor/lib/lib-ims-rcscmjni.so
 vendor/lib/libqomx_jpegenc.so
 vendor/lib/libflash_pmic.so
@@ -195,6 +202,7 @@ vendor/lib/libdisp-aba.so
 vendor/lib/libadsprpc.so
 vendor/lib/libdpmframework.so
 vendor/lib/libqmi_encdec.so
+vendor/lib/vendor.qti.hardware.radio.qcrilhook@1.0_vendor.so
 vendor/lib/libmmcamera2_c2d_module.so
 vendor/lib/vendor.qti.gnss@1.0_vendor.so
 vendor/lib/libmmcamera_isp_cac47.so
@@ -270,6 +278,7 @@ vendor/lib/libqvop-service.so
 vendor/lib/libmmcamera_dbg.so
 vendor/lib/libmmcamera_isp_fovcrop_video46.so
 vendor/lib/sensors.ssc.so
+vendor/lib/vendor.qti.imsrtpservice@1.0_vendor.so
 vendor/lib/libubifocus.so
 vendor/lib/libdpmnsrm.so
 vendor/lib/libmmcamera_imglib_faceproc_adspstub.so
@@ -284,6 +293,7 @@ vendor/lib/libmmcamera_faceproc.so
 vendor/lib/libtrueportrait.so
 vendor/lib/lib-imsdpl.so
 vendor/lib/libqmi_cci.so
+vendor/lib/vendor.qti.hardware.radio.uim@1.0_vendor.so
 vendor/lib/libtinyxml2_1.so
 vendor/lib/libmmcamera2_imglib_modules.so
 vendor/lib/libmmcamera_sw2d_lib.so
@@ -301,6 +311,7 @@ vendor/lib/lib-imsqimf.so
 vendor/lib/libmmcamera_isp_mesh_rolloff44.so
 vendor/lib/libqti-wl.so
 vendor/lib/libqti_performance.so
+vendor/lib/lib-imscmservice.so
 vendor/lib/libqmi_client_helper.so
 vendor/lib/libmmcamera_isp_gtm46.so
 vendor/lib/libOmxQcelp13Dec.so
@@ -315,6 +326,7 @@ vendor/lib/libFidoCryptoJNI.so
 vendor/lib/libmmcamera_imglib.so
 vendor/lib/libllvm-qgl.so
 vendor/lib/libmmcamera_thread_services.so
+vendor/lib/vendor.qti.hardware.radio.uim_remote_server@1.0_vendor.so
 vendor/lib/lib-rcsimssjni.so
 vendor/lib/libtzdrmgenprov.so
 vendor/lib/libFidoCrypto.so
@@ -365,8 +377,15 @@ vendor/etc/cne/wqeclient/VZW/VZW_profile3.xml
 vendor/etc/perf-profile5.conf
 vendor/etc/perf-profile4.conf
 vendor/etc/msm_irqbalance.conf
+vendor/etc/data/netmgr_config.xml
+vendor/etc/data/dsi_config.xml
 vendor/etc/perf-profile6.conf
+vendor/etc/permissions/qcrilhook.xml
+vendor/etc/permissions/telephonyservice.xml
+vendor/etc/permissions/qcnvitems.xml
+vendor/etc/permissions/imscm.xml
 vendor/etc/permissions/com.qti.snapdragon.sdk.display.xml
+vendor/etc/permissions/qti-vzw-ims-internal.xml
 vendor/etc/perf-profile1.conf
 vendor/etc/perf-profile0.conf
 vendor/etc/perf-profile3.conf
@@ -403,7 +422,9 @@ vendor/lib64/libsdm-diag.so
 vendor/lib64/libgsl.so
 vendor/lib64/lib_drplugin_server.so
 vendor/lib64/libqseed3.so
+vendor/lib64/vendor.qti.hardware.radio.am@1.0_vendor.so
 vendor/lib64/vendor.display.color@1.0_vendor.so
+vendor/lib64/com.qualcomm.qti.imscmservice@1.0_vendor.so
 vendor/lib64/libimsmedia_jni.so
 vendor/lib64/libmmcamera_tintless_bg_pca_algo.so
 vendor/lib64/lib-rtpcommon.so
@@ -418,6 +439,7 @@ vendor/lib64/libC2D2.so
 vendor/lib64/lib-rtpsl.so
 vendor/lib64/libmmcamera2_stats_algorithm.so
 vendor/lib64/libI420colorconvert.so
+vendor/lib64/vendor.qti.hardware.radio.lpa@1.0_vendor.so
 vendor/lib64/libizat_core.so
 vendor/lib64/liblocationservice_glue.so
 vendor/lib64/com.quicinc.cne.server@1.0.so
@@ -437,6 +459,7 @@ vendor/lib64/egl/libGLESv1_CM_adreno.so
 vendor/lib64/egl/libGLESv2_adreno.so
 vendor/lib64/libdiag.so
 vendor/lib64/lib-imsSDP.so
+vendor/lib64/vendor.qti.hardware.radio.qtiradio@1.0_vendor.so
 vendor/lib64/libsd_sdk_display.so
 vendor/lib64/libloc_ds_api.so
 vendor/lib64/libqdp.so
@@ -448,6 +471,7 @@ vendor/lib64/libGPreqcancel.so
 vendor/lib64/libmm-qdcm.so
 vendor/lib64/libSecureUILib.so
 vendor/lib64/libssd.so
+vendor/lib64/vendor.qti.hardware.radio.ims@1.0_vendor.so
 vendor/lib64/libsdm-disp-vndapis.so
 vendor/lib64/libqmi_client_qmux.so
 vendor/lib64/libsmemlog.so
@@ -472,6 +496,7 @@ vendor/lib64/libnetmgr.so
 vendor/lib64/libadreno_utils.so
 vendor/lib64/libasn1crt.so
 vendor/lib64/libc2d30-a5xx.so
+vendor/lib64/vendor.qti.hardware.radio.uim_remote_client@1.0_vendor.so
 vendor/lib64/librilqmiservices.so
 vendor/lib64/libOmxAacDec.so
 vendor/lib64/libmdmdetect.so
@@ -482,6 +507,7 @@ vendor/lib64/libqcmaputils.so
 vendor/lib64/sensors.oem.so
 vendor/lib64/libperipheral_client.so
 vendor/lib64/libacdbrtac.so
+vendor/lib64/vendor.qti.imsrtpservice@1.0-service-Impl.so
 vendor/lib64/lib-ims-rcscmjni.so
 vendor/lib64/lib-imsrcscmclient.so
 vendor/lib64/libdisp-aba.so
@@ -489,6 +515,7 @@ vendor/lib64/libadsprpc.so
 vendor/lib64/libdpmframework.so
 vendor/lib64/libqmi_encdec.so
 vendor/lib64/libloc_api_v02.so
+vendor/lib64/vendor.qti.hardware.radio.qcrilhook@1.0_vendor.so
 vendor/lib64/vendor.qti.gnss@1.0_vendor.so
 vendor/lib64/libqcci_legacy.so
 vendor/lib64/com.quicinc.cne.constants@2.0.so
@@ -533,6 +560,7 @@ vendor/lib64/libril-qcril-hook-oem.so
 vendor/lib64/libdrmtime.so
 vendor/lib64/libqisl.so
 vendor/lib64/sensors.ssc.so
+vendor/lib64/vendor.qti.imsrtpservice@1.0_vendor.so
 vendor/lib64/liblowi_wifihal.so
 vendor/lib64/libdpmnsrm.so
 vendor/lib64/libril-qc-ltedirectdisc.so
@@ -547,6 +575,7 @@ vendor/lib64/libthermalioctl.so
 vendor/lib64/libqti-gt.so
 vendor/lib64/lib-imsdpl.so
 vendor/lib64/libqmi_cci.so
+vendor/lib64/vendor.qti.hardware.radio.uim@1.0_vendor.so
 vendor/lib64/libtinyxml2_1.so
 vendor/lib64/libdataitems.so
 vendor/lib64/librcc.so
@@ -561,6 +590,7 @@ vendor/lib64/lib-imsqimf.so
 vendor/lib64/liblocationservice.so
 vendor/lib64/libqti-wl.so
 vendor/lib64/libqti_performance.so
+vendor/lib64/lib-imscmservice.so
 vendor/lib64/libqmi_client_helper.so
 vendor/lib64/libOmxQcelp13Dec.so
 vendor/lib64/libllvm-qcom.so
@@ -570,6 +600,7 @@ vendor/lib64/libOmxEvrcDec.so
 vendor/lib64/libsystem_health_mon.so
 vendor/lib64/libFidoCryptoJNI.so
 vendor/lib64/libllvm-qgl.so
+vendor/lib64/vendor.qti.hardware.radio.uim_remote_server@1.0_vendor.so
 vendor/lib64/lib-rcsimssjni.so
 vendor/lib64/libtzdrmgenprov.so
 vendor/lib64/libFidoCrypto.so
@@ -588,6 +619,7 @@ vendor/lib64/lib_remote_simlock.so
 vendor/lib64/libOmxAlacDecSw.so
 vendor/lib64/libprotobuf-cpp-Hlit.so
 vendor/lib64/libsecureui.so
+vendor/lib64/vendor.qti.hardware.radio.atcmdfwd@1.0_vendor.so
 vendor/lib64/libdpmfdmgr.so
 vendor/lib64/libacdb-fts.so
 vendor/lib64/libqmi_common_so.so
@@ -597,23 +629,33 @@ vendor/lib64/soundfx/libqcvirt.so
 vendor/lib64/libCB.so
 vendor/lib64/libqmi.so
 vendor/lib64/libqdi.so
+vendor/bin/rmt_storage
+vendor/bin/imsdatadaemon
+vendor/bin/imsrcsd
 vendor/bin/time_daemon
 vendor/bin/perfd
 vendor/bin/hw/vendor.display.color@1.0-service
 vendor/bin/hw/vendor.qti.gnss@1.0-service
 vendor/bin/qti
+vendor/bin/imsqmidaemon
+vendor/bin/ipacm-diag
 vendor/bin/mm-qcamera-daemon
 vendor/bin/loc_launcher
 vendor/bin/qseeproxydaemon
 vendor/bin/cnd
+vendor/bin/ims_rtp_daemon
 vendor/bin/thermal-engine
+vendor/bin/netmgrd
 vendor/bin/adsprpcd
 vendor/bin/pd-mapper
+vendor/bin/tftp_server
 vendor/bin/sensors.qcom
+lib/com.qualcomm.qti.imscmservice@1.0.so
 lib/libmmjpeg_interface.so
 lib/vendor.display.postproc@1.0.so
 lib/libmmcamera_interface.so
 lib/libvpplibrary.so
+lib/vendor.qti.imsrtpservice@1.0.so
 lib/vendor.display.color@1.0.so
 lib/vendor.qti.gnss@1.0.so
 lib/libOmxVpp.so
@@ -641,9 +683,11 @@ etc/permissions/com.qti.dpmframework.xml
 etc/permissions/com.quicinc.cne.xml
 lib64/lib_fpc_tac_shared.so
 lib64/libloc_ds_api.so
+lib64/com.qualcomm.qti.imscmservice@1.0.so
 lib64/libloc_api_v02.so
 lib64/vendor.display.postproc@1.0.so
 lib64/libextmedia_jni.so
+lib64/vendor.qti.imsrtpservice@1.0.so
 lib64/vendor.display.color@1.0.so
 lib64/vendor.qti.gnss@1.0.so
 lib64/libtfa98xx.so
