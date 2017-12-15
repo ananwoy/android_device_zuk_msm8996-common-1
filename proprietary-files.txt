@@ -638,6 +638,7 @@ vendor/bin/hw/vendor.display.color@1.0-service
 vendor/bin/hw/vendor.qti.gnss@1.0-service
 vendor/bin/qti
 vendor/bin/imsqmidaemon
+vendor/bin/pm-service
 vendor/bin/ipacm-diag
 vendor/bin/mm-qcamera-daemon
 vendor/bin/loc_launcher
@@ -650,6 +651,7 @@ vendor/bin/adsprpcd
 vendor/bin/pd-mapper
 vendor/bin/tftp_server
 vendor/bin/sensors.qcom
+vendor/bin/pm-proxy
 lib/com.qualcomm.qti.imscmservice@1.0.so
 lib/libmmjpeg_interface.so
 lib/vendor.display.postproc@1.0.so
@@ -699,7 +701,6 @@ bin/wcnss_filter
 bin/btnvtool
 bin/imsqmidaemon
 bin/msm_irqbalance
-bin/pm-service
 bin/ipacm-diag
 bin/qseecomd
 bin/dpmd
@@ -715,7 +716,6 @@ bin/irsc_util
 bin/ssr_setup
 bin/tftp_server
 bin/iop
-bin/pm-proxy
 framework/com.qti.location.sdk.jar
 framework/ConnectivityExt.jar
 framework/com.qti.snapdragon.sdk.display.jar
