@@ -640,9 +640,9 @@ vendor/bin/qti
 vendor/bin/imsqmidaemon
 vendor/bin/pm-service
 vendor/bin/ipacm-diag
+vendor/bin/qseecomd
 vendor/bin/mm-qcamera-daemon
 vendor/bin/loc_launcher
-vendor/bin/qseeproxydaemon
 vendor/bin/cnd
 vendor/bin/ims_rtp_daemon
 vendor/bin/thermal-engine
@@ -702,7 +702,6 @@ bin/btnvtool
 bin/imsqmidaemon
 bin/msm_irqbalance
 bin/ipacm-diag
-bin/qseecomd
 bin/dpmd
 bin/loc_launcher
 bin/ims_rtp_daemon
