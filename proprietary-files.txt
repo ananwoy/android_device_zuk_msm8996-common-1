@@ -593,6 +593,7 @@ vendor/lib64/soundfx/libqcvirt.so
 vendor/lib64/libCB.so
 vendor/lib64/libqmi.so
 vendor/lib64/libqdi.so
+vendor/bin/time_daemon
 vendor/bin/perfd
 vendor/bin/hw/vendor.display.color@1.0-service
 vendor/bin/hw/vendor.qti.gnss@1.0-service
@@ -645,7 +646,6 @@ lib64/libtfa98xx.so
 bin/rmt_storage
 bin/imsdatadaemon
 bin/imscmservice
-bin/time_daemon
 bin/cnss-daemon
 bin/wcnss_filter
 bin/btnvtool
