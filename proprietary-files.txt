@@ -602,6 +602,7 @@ vendor/bin/cnd
 vendor/bin/thermal-engine
 vendor/bin/adsprpcd
 vendor/bin/pd-mapper
+vendor/bin/sensors.qcom
 lib/libmmjpeg_interface.so
 lib/vendor.display.postproc@1.0.so
 lib/libmmcamera_interface.so
@@ -662,7 +663,6 @@ bin/port-bridge
 bin/irsc_util
 bin/ssr_setup
 bin/tftp_server
-bin/sensors.qcom
 bin/iop
 bin/pm-proxy
 framework/com.qti.location.sdk.jar
