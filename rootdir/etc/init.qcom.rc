@@ -35,7 +35,7 @@ on early-init
 
 on init
 
-    export LD_SHIM_LIBS "/system/vendor/lib64/libizat_core.so|libshims_get_process_name.so:/system/vendor/lib/libmmcamera_ppeiscore.so|/system/lib/libshim_camera.so:/system/vendor/lib/hw/camera.vendor.msm8996.so|/system/lib/libshim_camera.so"
+    export LD_SHIM_LIBS "/system/vendor/lib64/libizat_core.so|libshims_get_process_name.so:/system/vendor/lib/libmmcamera_ppeiscore.so|/system/vendor/lib/libshim_camera.so:/system/vendor/lib/hw/camera.vendor.msm8996.so|/system/vendor/lib/libshim_camera.so"
 
     # Set permissions for persist partition
     mkdir /persist 0771 system system
@@ -520,7 +520,7 @@ service ril-daemon2 /vendor/bin/hw/rild -c 2
     capabilities BLOCK_SUSPEND NET_ADMIN NET_RAW
 
 # start camera server as daemon
-service qcamerasvr /system/bin/mm-qcamera-daemon
+service qcamerasvr /vendor/bin/mm-qcamera-daemon
     class main
     user camera
     group camera system inet input graphics

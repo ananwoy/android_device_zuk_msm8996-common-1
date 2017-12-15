@@ -596,6 +596,7 @@ vendor/bin/perfd
 vendor/bin/hw/vendor.display.color@1.0-service
 vendor/bin/hw/vendor.qti.gnss@1.0-service
 vendor/bin/qti
+vendor/bin/mm-qcamera-daemon
 vendor/bin/loc_launcher
 vendor/bin/qseeproxydaemon
 vendor/bin/cnd
@@ -651,7 +652,6 @@ bin/pm-service
 bin/ipacm-diag
 bin/qseecomd
 bin/dpmd
-bin/mm-qcamera-daemon
 bin/loc_launcher
 bin/ims_rtp_daemon
 bin/energy-awareness
