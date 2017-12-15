@@ -652,6 +652,7 @@ vendor/bin/thermal-engine
 vendor/bin/netmgrd
 vendor/bin/adsprpcd
 vendor/bin/pd-mapper
+vendor/bin/irsc_util
 vendor/bin/tftp_server
 vendor/bin/sensors.qcom
 vendor/bin/pm-proxy
@@ -714,7 +715,6 @@ bin/hci_qcomm_init
 bin/netmgrd
 bin/xtwifi-inet-agent
 bin/port-bridge
-bin/irsc_util
 bin/ssr_setup
 bin/tftp_server
 bin/iop
