@@ -112,6 +112,7 @@ vendor/lib/libmmcamera_isp_ltm47.so
 vendor/lib/com.quicinc.cne.server@1.0.so
 vendor/lib/libadiertac.so
 vendor/lib/libmmcamera2_memleak.so
+vendor/lib/libril.so
 vendor/lib/lib-rtpdaemoninterface.so
 vendor/lib/libllvm-glnext.so
 vendor/lib/libmmcamera2_sensor_modules.so
@@ -446,6 +447,7 @@ vendor/lib64/com.quicinc.cne.server@1.0.so
 vendor/lib64/libDRPlugin.so
 vendor/lib64/libadiertac.so
 vendor/lib64/libmmcamera2_memleak.so
+vendor/lib64/libril.so
 vendor/lib64/lib-rtpdaemoninterface.so
 vendor/lib64/libllvm-glnext.so
 vendor/lib64/libqmiservices.so
@@ -634,6 +636,7 @@ vendor/bin/imsdatadaemon
 vendor/bin/imsrcsd
 vendor/bin/time_daemon
 vendor/bin/perfd
+vendor/bin/hw/rild
 vendor/bin/hw/vendor.display.color@1.0-service
 vendor/bin/hw/vendor.qti.gnss@1.0-service
 vendor/bin/qti
