@@ -150,6 +150,7 @@ vendor/lib/libqcci_legacy.so
 vendor/lib/libfastcvopt.so
 vendor/lib/libmmcamera_isp_bg_stats46.so
 vendor/lib/libmorpho_image_stab4.so
+vendor/lib/libmmcamera_interface.so
 vendor/lib/libmmcamera_eebinparse.so
 vendor/lib/libqti-perfd-client.so
 vendor/lib/libwms.so
