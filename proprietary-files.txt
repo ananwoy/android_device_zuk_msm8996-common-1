@@ -144,6 +144,7 @@ vendor/lib/libadsprpc.so
 vendor/lib/libdpmframework.so
 vendor/lib/libqmi_encdec.so
 vendor/lib/libmmcamera2_c2d_module.so
+vendor/lib/vendor.qti.gnss@1.0_vendor.so
 vendor/lib/libmmcamera_isp_cac47.so
 vendor/lib/libqcci_legacy.so
 vendor/lib/libfastcvopt.so
@@ -520,6 +521,7 @@ lib/libmmjpeg_interface.so
 lib/vendor.display.postproc@1.0.so
 lib/libmmcamera_interface.so
 lib/vendor.display.color@1.0.so
+lib/vendor.qti.gnss@1.0.so
 lib/libtfa98xx.so
 lib/libmm-qcamera.so
 lib/libqomx_core.so
@@ -606,6 +608,7 @@ lib64/lib_fpc_tac_shared.so
 lib64/vendor.display.postproc@1.0.so
 lib64/libextmedia_jni.so
 lib64/vendor.display.color@1.0.so
+lib64/vendor.qti.gnss@1.0.so
 lib64/libtfa98xx.so
 bin/rmt_storage
 bin/imsdatadaemon
