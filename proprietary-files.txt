@@ -130,7 +130,6 @@ vendor/lib/libmmcamera_isp_chroma_suppress40.so
 vendor/lib/libscalar.so
 vendor/lib/libmmcamera_isp_scaler_viewfinder46.so
 vendor/lib/libqcmaputils.so
-vendor/lib/sensors.oem.so
 vendor/lib/libmm-color-convertor.so
 vendor/lib/libperipheral_client.so
 vendor/lib/libacdbrtac.so
@@ -396,7 +395,6 @@ vendor/lib64/libmmcamera2_is.so
 vendor/lib64/libscalar.so
 vendor/lib64/libimscamera_jni.so
 vendor/lib64/libqcmaputils.so
-vendor/lib64/sensors.oem.so
 vendor/lib64/libmm-color-convertor.so
 vendor/lib64/libperipheral_client.so
 vendor/lib64/libacdbrtac.so
