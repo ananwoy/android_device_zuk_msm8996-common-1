@@ -149,6 +149,7 @@ PRODUCT_COPY_FILES += \
 
 # HIDL
 $(call inherit-product, $(LOCAL_PATH)/hidl.mk)
+DEVICE_MATRIX_FILE := $(LOCAL_PATH)/compatibility_matrix.xml
 
 # HIDL manifest
 PRODUCT_COPY_FILES += \
