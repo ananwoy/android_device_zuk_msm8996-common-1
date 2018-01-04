@@ -195,6 +195,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Net
 PRODUCT_PACKAGES += \
+    libandroid_net \
     netutils-wrapper-1.0
 
 # OMX
