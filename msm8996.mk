@@ -193,6 +193,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.debug.wfd.enable=1
 
+# Net
+PRODUCT_PACKAGES += \
+    netutils-wrapper-1.0
+
 # OMX
 PRODUCT_PACKAGES += \
     libc2dcolorconvert \
