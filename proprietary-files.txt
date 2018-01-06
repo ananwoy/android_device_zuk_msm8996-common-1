@@ -539,6 +539,7 @@ vendor/bin/hw/vendor.display.color@1.0-service
 vendor/bin/hw/vendor.qti.gnss@1.0-service
 vendor/bin/hw/vendor.qti.hardware.perf@1.0-service
 vendor/bin/qti
+vendor/bin/pm-service
 vendor/bin/mm-qcamera-daemon
 vendor/bin/loc_launcher
 vendor/bin/qseeproxydaemon
@@ -548,6 +549,7 @@ vendor/bin/xtwifi-client
 vendor/bin/energy-awareness
 vendor/bin/thermal-engine
 vendor/bin/pd-mapper
+vendor/bin/pm-proxy
 lib/vendor.display.postproc@1.0.so
 lib/vendor.qti.hardware.perf@1.0.so
 lib/libqti-perfd-client_system.so
@@ -632,7 +634,6 @@ bin/wcnss_filter
 bin/btnvtool
 bin/imsqmidaemon
 bin/msm_irqbalance
-bin/pm-service
 bin/ipacm-diag
 bin/qseecomd
 bin/ims_rtp_daemon
@@ -647,7 +648,6 @@ bin/ssr_setup
 bin/tftp_server
 bin/sensors.qcom
 bin/iop
-bin/pm-proxy
 framework/com.qti.snapdragon.sdk.display.jar
 framework/com.quicinc.cne.api-V1.0-java.jar
 framework/qti-telephony-common.jar
