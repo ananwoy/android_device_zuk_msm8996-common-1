@@ -74,6 +74,7 @@ vendor/lib/egl/libGLESv2_adreno.so
 vendor/lib/libdiag.so
 vendor/lib/libOmxVideoDSMode.so
 vendor/lib/lib-imsSDP.so
+vendor/lib/vendor.qti.hardware.qdutils_disp@1.0_vendor.so
 vendor/lib/libmmcamera2_isp_modules.so
 vendor/lib/libsd_sdk_display.so
 vendor/lib/libqdp.so
@@ -239,6 +240,7 @@ vendor/lib/libmmcamera_isp_fovcrop_encoder46.so
 vendor/lib/libgpustats.so
 vendor/lib/libmmcamera2_cpp_module.so
 vendor/lib/libcneapiclient.so
+vendor/lib/libsdm-disp-apis.so
 vendor/lib/libmmcamera_isp_linearization40.so
 vendor/lib/libmmcamera2_mct.so
 vendor/lib/lib-imsqimf.so
@@ -297,6 +299,7 @@ vendor/etc/perf-profile0.conf
 vendor/etc/perf-profile3.conf
 vendor/etc/perf-profile2.conf
 vendor/etc/init/vendor.display.color@1.0-service.rc
+vendor/etc/init/vendor.qti.hardware.qdutils_disp@1.0-service-qti.rc
 vendor/etc/init/vendor.qti.gnss@1.0-service.rc
 vendor/etc/qcril_fancy.db
 vendor/etc/RIDL/qdss.cfg
@@ -359,6 +362,7 @@ vendor/lib64/egl/libGLESv1_CM_adreno.so
 vendor/lib64/egl/libGLESv2_adreno.so
 vendor/lib64/libdiag.so
 vendor/lib64/lib-imsSDP.so
+vendor/lib64/vendor.qti.hardware.qdutils_disp@1.0_vendor.so
 vendor/lib64/libsd_sdk_display.so
 vendor/lib64/libloc_ds_api.so
 vendor/lib64/libqdp.so
@@ -468,6 +472,7 @@ vendor/lib64/libgpustats.so
 vendor/lib64/libcneapiclient.so
 vendor/lib64/liblbs_core.so
 vendor/lib64/libevent_observer.so
+vendor/lib64/libsdm-disp-apis.so
 vendor/lib64/libsecureui_svcsock.so
 vendor/lib64/lib-imsqimf.so
 vendor/lib64/liblocationservice.so
@@ -510,6 +515,7 @@ vendor/lib64/libqdi.so
 vendor/bin/perfd
 vendor/bin/slim_daemon
 vendor/bin/mm-pp-dpps
+vendor/bin/hw/vendor.qti.hardware.qdutils_disp@1.0-service-qti
 vendor/bin/hw/vendor.display.color@1.0-service
 vendor/bin/hw/vendor.qti.gnss@1.0-service
 vendor/bin/qti
@@ -526,6 +532,7 @@ lib/vendor.display.color@1.0.so
 lib/vendor.qti.gnss@1.0.so
 lib/libtfa98xx.so
 lib/libmm-qcamera.so
+lib/vendor.qti.hardware.qdutils_disp@1.0.so
 etc/sensors/sensor_def_qcomdev.conf
 etc/cne/andsfCne.xml
 etc/cne/wqeclient/ATT/ATT_profile1.xml
@@ -611,6 +618,7 @@ lib64/libextmedia_jni.so
 lib64/vendor.display.color@1.0.so
 lib64/vendor.qti.gnss@1.0.so
 lib64/libtfa98xx.so
+lib64/vendor.qti.hardware.qdutils_disp@1.0.so
 bin/rmt_storage
 bin/imsdatadaemon
 bin/imscmservice
@@ -640,6 +648,7 @@ bin/sensors.qcom
 bin/iop
 bin/pm-proxy
 framework/ConnectivityExt.jar
+framework/com.qti.snapdragon.sdk.display.jar
 framework/dpmapi.jar
 framework/tcmclient.jar
 framework/cneapiclient.jar
