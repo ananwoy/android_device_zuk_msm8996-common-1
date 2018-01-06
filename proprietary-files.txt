@@ -321,12 +321,7 @@ vendor/etc/msm_irqbalance.conf
 vendor/etc/data/netmgr_config.xml
 vendor/etc/data/dsi_config.xml
 vendor/etc/perf-profile6.conf
-vendor/etc/permissions/qcrilhook.xml
-vendor/etc/permissions/telephonyservice.xml
-vendor/etc/permissions/qcnvitems.xml
-vendor/etc/permissions/imscm.xml
 vendor/etc/permissions/com.qti.snapdragon.sdk.display.xml
-vendor/etc/permissions/qti-vzw-ims-internal.xml
 vendor/etc/perf-profile1.conf
 vendor/etc/perf-profile0.conf
 vendor/etc/perf-profile3.conf
