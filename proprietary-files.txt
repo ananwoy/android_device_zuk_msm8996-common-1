@@ -492,6 +492,7 @@ vendor/lib64/sensors.ssc.so
 vendor/lib64/vendor.qti.imsrtpservice@1.0_vendor.so
 vendor/lib64/liblowi_wifihal.so
 vendor/lib64/libril-qc-ltedirectdisc.so
+vendor/lib64/lib-uceservice.so
 vendor/lib64/libfastcvadsp_stub.so
 vendor/lib64/librs_adreno.so
 vendor/lib64/lib-sec-disp.so
@@ -563,6 +564,7 @@ vendor/bin/hw/vendor.display.color@1.0-service
 vendor/bin/hw/vendor.qti.gnss@1.0-service
 vendor/bin/qti
 vendor/bin/imsqmidaemon
+vendor/bin/msm_irqbalance
 vendor/bin/ipacm-diag
 vendor/bin/mm-qcamera-daemon
 vendor/bin/loc_launcher
@@ -571,9 +573,11 @@ vendor/bin/cnd
 vendor/bin/ims_rtp_daemon
 vendor/bin/xtra-daemon
 vendor/bin/xtwifi-client
+vendor/bin/energy-awareness
 vendor/bin/thermal-engine
 vendor/bin/netmgrd
 vendor/bin/pd-mapper
+vendor/bin/irsc_util
 vendor/bin/tftp_server
 vendor/framework/qti-vzw-ims-internal.jar
 lib/com.qualcomm.qti.imscmservice@1.0.so
