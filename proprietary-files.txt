@@ -497,6 +497,7 @@ vendor/lib64/sensors.ssc.so
 vendor/lib64/vendor.qti.imsrtpservice@1.0_vendor.so
 vendor/lib64/liblowi_wifihal.so
 vendor/lib64/libril-qc-ltedirectdisc.so
+vendor/lib64/lib-uceservice.so
 vendor/lib64/libfastcvadsp_stub.so
 vendor/lib64/librs_adreno.so
 vendor/lib64/lib-sec-disp.so
@@ -571,6 +572,7 @@ vendor/bin/hw/vendor.qti.gnss@1.0-service
 vendor/bin/hw/vendor.qti.hardware.perf@1.0-service
 vendor/bin/qti
 vendor/bin/imsqmidaemon
+vendor/bin/msm_irqbalance
 vendor/bin/pm-service
 vendor/bin/mm-qcamera-daemon
 vendor/bin/loc_launcher
@@ -583,6 +585,7 @@ vendor/bin/energy-awareness
 vendor/bin/thermal-engine
 vendor/bin/netmgrd
 vendor/bin/pd-mapper
+vendor/bin/irsc_util
 vendor/bin/tftp_server
 vendor/bin/pm-proxy
 vendor/framework/qti-vzw-ims-internal.jar
@@ -676,7 +679,6 @@ bin/cnss-daemon
 bin/wcnss_filter
 bin/btnvtool
 bin/imsqmidaemon
-bin/msm_irqbalance
 bin/ipacm-diag
 bin/qseecomd
 bin/ims_rtp_daemon
@@ -686,7 +688,6 @@ bin/netmgrd
 bin/xtwifi-inet-agent
 bin/port-bridge
 bin/adsprpcd
-bin/irsc_util
 bin/ssr_setup
 bin/tftp_server
 bin/sensors.qcom
