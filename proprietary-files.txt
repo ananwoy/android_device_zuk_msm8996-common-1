@@ -80,7 +80,6 @@ vendor/lib/libsd_sdk_display.so
 vendor/lib/libqdp.so
 vendor/lib/libaudcal.so
 vendor/lib/lib-imsxml.so
-vendor/lib/libconnctrl.so
 vendor/lib/libmm-qdcm.so
 vendor/lib/libmmqjpegdma.so
 vendor/lib/libmmqjpeg_codec.so
@@ -93,7 +92,6 @@ vendor/lib/libsmemlog.so
 vendor/lib/lib-imsrcs.so
 vendor/lib/com.quicinc.cne.server@2.0.so
 vendor/lib/com.quicinc.cne.constants@1.0.so
-vendor/lib/libQtiTether.so
 vendor/lib/libqti-iop-client.so
 vendor/lib/libquipc_os_api.so
 vendor/lib/hw/sound_trigger.primary.msm8996.so
@@ -386,7 +384,6 @@ vendor/lib64/libloc_ds_api.so
 vendor/lib64/libqdp.so
 vendor/lib64/libaudcal.so
 vendor/lib64/lib-imsxml.so
-vendor/lib64/libconnctrl.so
 vendor/lib64/libflp.so
 vendor/lib64/libGPreqcancel.so
 vendor/lib64/libmm-qdcm.so
@@ -398,7 +395,6 @@ vendor/lib64/libsmemlog.so
 vendor/lib64/lib-imsrcs.so
 vendor/lib64/com.quicinc.cne.server@2.0.so
 vendor/lib64/com.quicinc.cne.constants@1.0.so
-vendor/lib64/libQtiTether.so
 vendor/lib64/libqti-iop-client.so
 vendor/lib64/libquipc_os_api.so
 vendor/lib64/hw/fingerprint.msm8996.so
